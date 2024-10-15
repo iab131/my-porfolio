@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import React from "react";
-import { CardBody, CardContainer, CardItem } from "./3d-card";
 import Link from "next/link";
+import { CardBody, CardContainer, CardItem } from "./CardContent";
 
 export function Card() {
   return (
@@ -35,19 +35,19 @@ export function Card() {
           <CardItem
             translateZ={20}
             as={Link}
-            href="https://makerworld.com/en/@Enhe"
+            href="https://twitter.com/mannupaaji"
             target="__blank"
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
           >
             Try now →
           </CardItem>
-          {/* <CardItem
+          <CardItem
             translateZ={20}
             as="button"
             className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
           >
             Sign up
-          </CardItem> */}
+          </CardItem>
         </div>
       </CardBody>
     </CardContainer>

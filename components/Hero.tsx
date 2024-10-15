@@ -1,9 +1,9 @@
 import React from 'react'
-import { Card } from './ui/Card'
+import { Box } from './ui/Box'
 const Hero = () => {
   return (
-    <div className='pb-20 pt-36 bg-black-100'>
-        <Card />
+    <div className=''>
+        <Box/>
     </div>
     
   )
