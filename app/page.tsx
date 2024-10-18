@@ -10,9 +10,9 @@ export default function Home() {
       </div>
       
       {/* Add margin to separate Hero and Card */}
-      <div className="relative">
+      {/* <div className="relative">
         <Card />
-      </div>
+      </div> */}
     </main>
   );
 }
