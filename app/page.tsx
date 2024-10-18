@@ -8,11 +8,9 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <Hero />
       </div>
-      <div className="">
-        hi
-      </div>
+      
       {/* Add margin to separate Hero and Card */}
-      <div className="">
+      <div className="relative">
         <Card />
       </div>
     </main>
