@@ -10,7 +10,7 @@ export function Box() {
       <div className="relative -top-[1200px] -left-[1200px]">
         <Boxes className=""/>
       </div>
-      <div className="absolute inset-0 w-full h-[200%] bg-black-100 top-[100%]" />
+      <div className="absolute inset-0 w-full h-[200%] bg-slate-900 top-[100%]" />
       {/* Prevent text from being highlighted on hover */}
       {/* <h1 className={cn("md:text-4xl text-xl text-white relative z-20 cursor-default select-none")}>
         Tailwind is Awesome
