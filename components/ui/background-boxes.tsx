@@ -52,7 +52,7 @@ export const BoxesCore = ({ className, ...rest }: { className?: string }) => {
             >
               {j % 2 === 0 && i % 2 === 0 ? (
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="http://www.3.owrg/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"

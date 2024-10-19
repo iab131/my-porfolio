@@ -5,11 +5,12 @@ import { cn } from "@/lib/utils";
 
 export function Box() {
   return (
-    <div className=" w-full  flex flex-col items-center justify-center rounded-lg">
+    <div className=" w-full flex flex-col items-center justify-center rounded-lg ">
       <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
-
-      <Boxes />
-
+      <div className="relative -top-[1200px] -left-[1200px]">
+        <Boxes className=""/>
+      </div>
+      <div className="absolute inset-0 w-full h-[200%] bg-black-100 top-[100%]" />
       {/* Prevent text from being highlighted on hover */}
       {/* <h1 className={cn("md:text-4xl text-xl text-white relative z-20 cursor-default select-none")}>
         Tailwind is Awesome
