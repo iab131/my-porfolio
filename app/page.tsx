@@ -5,18 +5,13 @@ import { Card } from "@/components/ui/Card";
 
 export default function Home() {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-auto mx-auto sm:px-10 px-5 h-screen">
-      <div>
-        <Box/>
+    <main className="relative overflow-x-hidden bg-black-100 flex justify-center items-center flex-col overflow-auto mx-auto sm:px-10 px-5 h-screen">
+      <div >
+        <Box />
       </div>
       <div className="max-w-7xl w-full">
         <Hero />
       </div>
-      
-      {/* Add margin to separate Hero and Card */}
-      {/* <div className="relative">
-        <Card />
-      </div> */}
     </main>
   );
 }

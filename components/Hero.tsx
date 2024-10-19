@@ -1,5 +1,4 @@
 import React from 'react'
-import { Box } from './ui/Box'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import { Card } from './ui/Card'
 
